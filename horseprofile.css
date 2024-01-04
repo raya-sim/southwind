@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+legend {
+font-family: 'Playfair Display';
+color: #7f6a6d;
+}
+
+a { 
+  color: #7f6a6d; 
+} 
+
+a:hover {
+	color: #654a4e;
+}
+
+/*Sidebar*/
+
+sidebar {  box-sizing: border-box;
+  color: #fff;
+  background-image: url('https://i.imgur.com/WGU1xZ9.png');
+  flex: 1;
+  background-size: cover; background-position: 50% 50% }
+  
+sidebar a:hover { color: inherit; background-color: #654a4e; }
+
+
+/*Horse name*/
+
+h1 { 
+  font-style: normal; 
+  text-transform:uppercase;
+  color: #7f6a6d; 
+  line-height:3rem; 
+  font-size: 3rem; 
+  font-weight: 400; 
+  font-family: 'Playfair Display';
+  background: linear-gradient(90deg, #7f6a6d 0%, transparent 33%, transparent 66%, #7f6a6d 100%);
+
+} 
+
+/*Top nav bar*/
+nav, nav a{
+   background: #654a4e;
+   text-shadow: 1px 1px 2px #000;
+   color: #f8f5f5;
+}
+
+nav a:hover {color: #7f6a6d; }
+nav a.active { background: #7f6a6d; }
+
+/*Built-in info tabs*/
+
+.ribbons b {
+  font-size: 1.3rem;
+  display: block;
+  line-height: 1;
+  margin: 0;
+  color: #7f6a6d;
+}
+
+.progress {  background: #7f6a6d; }
+
+.tablinks i { color: #7f6a6d; }
+
+.tabwrap { margin: 1.5rem 0; }
+
+.tabcontent {
+  font-size: 13px;
+  text-transform: lowercase;
+}
+
+table th {
+font-size: 10px;
+background-color: #654a4e;
+color: #f8f5f5;
+ }
+
+table td {
+  font-size: 13px;
+}
+
+table i {
+color: #7f6a6d;
+ }
+
+
+/* Horse notes classes */
+
+.horsetabcontent h4 { 
+  background-color: #654a4e;
+  width:100%;
+  text-transform:uppercase;
+  font-weight:600;
+  display:block;
+  color: #7f6a6d; 
+  font-size: 1.2rem;
+  padding:5px;
+  font-family: 'Playfair Display';
+  color: #f8f5f5;
+  margin-bottom:10px;
+}
+
+.barn-name {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: Playfair Display;
+  text-align: center;
+  font-style: italic;
+  color: #7f6a6d;
+  margin-bottom:5px;
+}
+
+.horse-desc {
+  font-size:0.8rem;
+  text-align: justify;
+  padding: 5px 0px;
+}
+
+
+.tack {
+  font-size: 0.8rem;
+  text-align: left;
+  columns: 2;
+}
+.awards {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+
+.i-awards {
+  font-size: 1rem;
+  color: #7f6a6d;
+}
+
+.scrollbox {
+  overflow-y: scroll;
+}
+
+/* Medal colors*/
+.color-gold {
+  color: #dfbd69;
+}
+
+.color-silver {
+  color: #c7c7c7;
+}
+
+.color-bronze {
+  color: #957922;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:600px;
+  position:relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  opacity: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+  .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Dots */
+.dot {
+  cursor: pointer;
+  height: 6px;
+  width: 6px;
+  margin: 2px 2px;
+  background-color: #7f6a6d;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #654a4e;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Tabs*/
+.horsetab {
+  overflow: hidden;
+  border: 0px solid #ccc;
+  background-color: inherit;
+  color: #7f6a6d;
+  margin-top:7px;
+}
+/* Style the buttons that are used to open the tab content */
+
+.horsetablinks {
+    cursor: pointer;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 1rem;
+    margin: 0 0.25rem 0 0;
+    display: inline-block;
+    z-index: 6;
+    position: relative;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: transparent;
+    background: none;
+    color: #7f6a6d;
+	outline: 1px solid transparent;
+}
+
+.horsetablinks i { font-size: 170% }
+
+.horsetablinks:hover {
+	color: #7f6a6d;
+	background-color: var(--alt);
+}
+
+.horsetablinks.active {
+	color: #7f6a6d;
+	outline: 1px solid var(--alt);
+    border-top: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+	background-color: var(--alt);
+}
+
+/* Style the tab content */
+.horsetabcontent {
+  display: none;
+  padding: 1rem;
+  border-top: none;
+  background: var(--alt);
+  border-radius: 0 0 .5rem .5rem;
+  border: 1px solid var(--border);
+  z-index: 1;
+  margin-top:-1px;
+}
+
+/* Styles for mobile */ 
+@media(max-width: 1000px) {  
+	.tablinks i { font-size: 130% } .tablinks { padding: .5rem } 
+  .horseshoe { width: 2rem; padding: .5rem }
+  a.lightswitch { justify-content: center; }
+  sidebar a { background: transparent; padding: .5rem; justify-content: center; }
+  sidebar a i { display: block!important }
+  sidebar a span { display: none }
+  nav {
+    display: block; text-align: left;
+  }
+  nav a {
+    display: block;
+    padding: .4rem;
+  }
+  h1, h2 { margin: 0; background: none; text-align: center;}
+  h1 { font-size: 2.6rem; height: auto!important; display: block; margin-top: 1rem }
+  h2 { margin-bottom: 1rem }
