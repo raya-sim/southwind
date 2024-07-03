@@ -59,6 +59,16 @@ nav a.active { background: #7f6a6d; }
   color: #7f6a6d;
 }
 
+.ribbons td {
+	border-spacing: 0px;
+	padding: 1px;
+}
+
+.ribbons .big {
+	font-size:1rem;
+	font-weight:bold;
+}
+
 .progress {  background: #7f6a6d; }
 
 .tablinks i { color: #7f6a6d; }
