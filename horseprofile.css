@@ -24,6 +24,11 @@ sidebar {  box-sizing: border-box;
   
 sidebar a:hover { color: inherit; background-color: #654a4e; }
 
+/*Stats table*/
+
+.stats {
+	max-width:300px;
+}
 
 /*Horse name*/
 
